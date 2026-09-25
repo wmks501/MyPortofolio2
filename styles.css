@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom, green, blue, skyblue);
+    text-align: center; 
+    padding: 200px;
+    margin: auto;
+}
+
+#header {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, white, gray);
+}
+
+.foto {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.hobi {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.list ::before {
+    content: "🚀"
+}
+
+a {
+    color: red;
+    width: 100px;
+}
